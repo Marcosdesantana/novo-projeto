@@ -1,0 +1,71 @@
+@font-face{
+    font-family: minhaletra;
+    src: url(MeowScript-Regular.ttf) format(truetype);
+}
+body{
+    background-color: rgb(155, 243, 243);
+    text-align: justify;
+    text-indent: 15px;
+    
+    font-weight: bold;
+    font-size: 30px;
+}
+
+header{
+    text-align: center;
+    background-color: rgb(8, 219, 247);
+    padding: 20px 0px;
+    margin: 0px;
+}
+
+nav{
+    text-align: center;
+}
+
+nav > a {
+    margin: 10px 10px;
+    border: 2px solid rgb(62, 136, 247);
+    padding: 4px;
+    text-decoration: none;
+}
+
+    a:hover{
+        text-decoration: underline;
+        color: rgb(142, 76, 248);
+    }
+
+    main{
+        background-color: white;
+        margin: auto;
+        border-radius: 10px;
+        padding: 5px;
+       
+    }
+
+    a{
+        display: inline-block;
+    }
+
+.imagem{
+    text-align: center;
+    background-color: rgba(182, 240, 240, 0.575);
+    border-radius: 5px;
+}
+
+div{
+  text-align: center;
+   background-color: rgba(182, 240, 240, 0.575);
+}
+
+ul > li:hover{
+  color: blue;
+  text-decoration: underline;
+}
+
+footer{
+    text-align: center;
+}
+
+*{
+    margin: 0px;
+}
